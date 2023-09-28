@@ -24,7 +24,7 @@ function moveDodgerUp() {
     const up = parseInt(upNumbers, 10)
 
     if (up < 380) {
-        dodger.style.up = `${up + 7}px`
+        dodger.style.bottom = `${up + 7}px`
     }
 }
 
